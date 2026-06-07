@@ -24,8 +24,8 @@ function ArrayVisualizer({ isExploring = false, mode = 'array' }) {
               animate={{
                 boxShadow:
                   isExploring && index % 2 === 0
-                    ? '0 18px 40px rgba(45, 212, 191, 0.25)'
-                    : '0 10px 24px rgba(8, 145, 178, 0.14)',
+                    ? '0 18px 40px rgba(212, 170, 45, 0.25)'
+                    : '0 10px 24px rgba(178, 8, 70, 0.14)',
               }}
               className="w-10 rounded-t-md bg-gradient-to-t from-cyan-500 to-emerald-300 shadow-lg"
               initial={{ height: 0, opacity: 0 }}
