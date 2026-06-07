@@ -28,23 +28,6 @@ AI-powered learning app for data structures and algorithms. The app combines Gem
 - `generateQuiz()` creates multiple-choice quizzes in JSON.
 - `generateVisualizationInstructions()` and `generateCodeVisualizationInstructions()` produce engine-ready JSON.
 
-## Environment
-
-Create a local `.env` file from `.env.example` and set `VITE_GEMINI_API_KEY` before running the app.
-
-## Development
-
-```bash
-npm install
-npm run dev
-```
-
-## Production build
-
-```bash
-npm run build
-npm run preview
-```
 
 ## Demo flow
 
